@@ -2,15 +2,19 @@
 
 [Nginx Proxy Manager](https://nginxproxymanager.com/) stack for balenaCloud
 
+## Note
+
+This is a quick hack for an archived project that takes out duplicati and adds a mysql db compatible with Raspberry Pi 3B+
+
 ## Requirements
 
-- Raspberry Pi 4 or a similar x64 device supported by BalenaCloud
+- Raspberry Pi 3b+ or a similar x64 device supported by BalenaCloud
 
 ## Getting Started
 
 You can one-click-deploy this project to balena using the button below:
 
-[![deploy-with-balena](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/klutchell/balena-nginx-proxy-manager&defaultDeviceType=raspberrypi4-64)
+[![deploy-with-balena](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/borland502/balena-nginx-proxy-manager&defaultDeviceType=raspberrypi4-64)
 
 ## Manual Deployment
 
@@ -39,12 +43,6 @@ Email:    admin@example.com
 Password: changeme
 ```
 
-### duplicati
-
-<https://docs.duplicati.com>
-
-The most convenient way to configure and control Duplicati is using the Graphical User Interface. Duplicati provides an internal web server that allows the user to configure and schedule backup jobs, perform restore operations and apply settings. This web interface is available when Duplicati.Server.exe and/or Duplicati.GUI.TrayIcon.exe is/are running. The first instance of the web server is listening on TCP port `8200`.
-
 ## Contributing
 
 Please open an issue or submit a pull request with any features, fixes, or changes.
@@ -52,7 +50,6 @@ Please open an issue or submit a pull request with any features, fixes, or chang
 ## References
 
 - <https://nginxproxymanager.com/>
-- <https://docs.duplicati.com>
 
 ## License
 

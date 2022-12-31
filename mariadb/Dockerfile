@@ -1,4 +1,4 @@
-FROM mariadb:10.5.5
+FROM yobasystems/alpine-mariadb:10.6
 
 COPY sqldump.sh /sqldump.sh
 
