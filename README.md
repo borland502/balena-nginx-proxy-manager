@@ -14,7 +14,7 @@ This is a quick hack for an archived project that takes out duplicati and adds a
 
 You can one-click-deploy this project to balena using the button below:
 
-[![deploy-with-balena](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/borland502/balena-nginx-proxy-manager&defaultDeviceType=raspberrypi4-64)
+[![deploy-with-balena](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/borland502/balena-nginx-proxy-manager/tarball/rpi-3b&defaultDeviceType=raspberrypi4-64)
 
 ## Manual Deployment
 
